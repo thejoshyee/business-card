@@ -6,6 +6,9 @@ Learning how to build a business card with React.
 ## Learning Goals: 
 - React
 
+## Preview
+<img src="https://github.com/thejoshyee/business-card/blob/main/business-card-preview.png" width="50%" />
+
 Quick start:
 
 ```
