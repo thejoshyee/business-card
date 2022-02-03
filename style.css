@@ -1,157 +1,80 @@
 * {
     box-sizing: border-box;
-}
+}    
 
 body {
-    max-width: 100%;
-    width: 317px;
-    margin: 2em auto;
+    margin: 0;
+    background: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     color: white;
-    background-color: #23252C;
-    font-family: 'Inter', sans-serif;
-
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 20px #242424;
 }
 
-.container {
-    background-color: #1A1B21;
-    max-width: 100%;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-}
-
-/* Info Section */
-
-.profile-picture {
-    height: 317px;
-    width: 317px;
-    max-width: 100%;
-    object-fit: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-
-}
-
-.text-info {
-    text-align: center;
-}
-
-
-.top-contact {
+main {
+    padding: 15px;
+    height: 100vh;
     display: flex;
-    justify-content: space-around;
-    max-width: 100%;
-    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.name {
-    font-weight: Bold;
-    font-size: 25px;
-    margin-bottom: 0;
-}
-
-.frontend-dev-title {
-    color: #F3BF99;
-    font-size: 12.8px;
-    margin-top: 0.3em;
-    margin-bottom: 1.2em;
-}
-
-.email-text-top {
-    font-size: 10.24px;
-    margin-bottom: 2.5em;
-    
-}
-
-.email-btn-top {
-    background: #D1D5DB;
-    border-radius: 5px;
-    font-size: 14px;
-    padding: 1em;
-    width: 35%;
-    color: #374151;
-    max-width: 100%;
-}
-
-.btn {
-    text-decoration: none;
-}
-
-.linkedin-btn-top {
-    background: #5093E2;
-    border-radius: 5px;
-    font-size: 14px;
-    padding: 1em;
-    width: 35%;
-    color: white;
-}
-
-.btn {
-    cursor: pointer;
-    transition: 500ms;
-
-}
-
-.btn:hover {
-    background-color: #6e6e6e;
-    color: white;
-}
-
-
-/* Info */
-
-.about-wrapper {
-    width: 90%;
-    max-width: 100%;
-    margin: 2em;
-    font-size: 11px;
-}
-
-.about {
-    font-size: 18px;
-}
-
-.interests-wrapper {
-    width: 90%;
-    max-width: 100%;
-    margin: 2em;
-    font-size: 11px;
-    padding-bottom: 1em;
-    
-}
-
-
-.interests {
-        font-size: 18px;
-}
-
-
-/* Footer */
-
-
-.social-container {
+div.top {
     display: flex;
     justify-content: space-between;
+}
+
+h1.time {
+    text-align: center;
+    font-size: 4rem;
+}
+
+div#crypto {
+    font-size: 1.3rem;
+}
+
+div#crypto > p {
+    margin: 0;
+}
+
+div#crypto-top {
+    display: flex;
     align-items: center;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    padding-left: 4em;
-    padding-right: 4em;
-    background-color: #161619;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-
-    
+    margin-bottom: 5px;
 }
 
-.fab {
-    max-width: 100%;
+div#crypto-top > span {
+    margin-left: 10px;
 }
 
-.social-links {
-    font-size: 2em;
-    color: #918E9B;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
+div#weather {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-self: flex-start;
+    margin-top: -20px;
+}
 
+div#weather > img {
+    width: 70px;
+}
 
+p.weather-city {
+    width: 100%;
+    text-align: right;
+    margin: 0;
+    margin-top: -10px;
+    font-size: 2rem;
+
+}
+
+p.weather-temp {
+    margin: 0;
+    font-size: 1.7rem;
+    margin-left: -10px;
+    font-size: 2rem;
 }
