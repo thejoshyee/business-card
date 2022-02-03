@@ -4,7 +4,7 @@ export default function Info() {
     return (
         <div className="info-wrapper">
             <div className="profile-picture-wrapper">
-                <img src="https://scontent.fsac1-1.fna.fbcdn.net/v/t31.18172-8/23632220_10156042506191155_5614974461826187500_o.jpg?_nc_cat=106&ccb=1-5&_nc_sid=174925&_nc_ohc=x3B-hAufFBQAX-a3q5i&tn=rtM7D2bPn1BU36M4&_nc_ht=scontent.fsac1-1.fna&oh=00_AT8iCxihs75Dua5YfXDGlgqwKz4Kn1E7LPvXi0dJr7EVMA&oe=61F49B79" alt="Josh Yee" className="profile-picture" />
+                <img src="https://scontent.fsan1-2.fna.fbcdn.net/v/t1.6435-9/116017475_1027783457655024_8885015523689227404_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=RuuTrZkSuHQAX-PTauV&_nc_ht=scontent.fsan1-2.fna&oh=00_AT-Jbm4_xTUxPd2uRgOqE6xlW2dj9T_oZAEAZLGZ73diFw&oe=622101E0" alt="Josh Yee" className="profile-picture" />
             </div>
             
             <div className="text-info">
