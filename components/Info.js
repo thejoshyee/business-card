@@ -10,10 +10,10 @@ export default function Info() {
             <div className="text-info">
                 <h1 className="name">Joshua Yee</h1>
                 <p className="frontend-dev-title">Frontend Developer</p>
-                <p className="email-text-top">joshyee@gmail.com</p>
+                <p className="email-text-top">test@test.com</p>
                 
                 <div className="top-contact">
-                        <a className="btn email-btn-top" href = "mailto: joshyee@gmail.com">
+                        <a className="btn email-btn-top" href = "mailto: test@test.com">
                             <i className="fas fa-envelope"></i> Email
                         </a>
                         
